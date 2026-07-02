@@ -36,10 +36,11 @@ export default function Hero() {
             </a>
 
             <a
-              href="#contact"
+              href="/resume.pdf"
+              download
               className="rounded-xl border border-cyan-400 px-6 py-3 font-bold text-cyan-300 hover:bg-cyan-400 hover:text-slate-950"
             >
-              Get in Touch
+              Download Resume
             </a>
           </div>
 
