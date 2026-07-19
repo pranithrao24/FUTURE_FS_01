@@ -2,24 +2,44 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 export const metadata: Metadata = {
-  title: "Pusukuri Pranith Rao | Web Developer Portfolio",
+  title: "Pusukuri Pranith Rao | Full Stack Developer",
+
   description:
-    "Portfolio of Pusukuri Pranith Rao, CSE student at Vaagdevi College of Engineering, skilled in web development, prompt engineering, Python, JavaScript, SQL, Git and GitHub.",
+    "Professional portfolio of Pusukuri Pranith Rao, a Computer Science Engineering student specializing in Full Stack Web Development using Next.js, React, TypeScript, Firebase, Python, and Machine Learning.",
+
   keywords: [
     "Pusukuri Pranith Rao",
-    "Web Developer",
-    "Prompt Engineering",
-    "CSE Student",
-    "Vaagdevi College of Engineering",
     "Portfolio",
-    "HTML",
-    "CSS",
-    "JavaScript",
+    "Full Stack Developer",
+    "Frontend Developer",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Firebase",
+    "Tailwind CSS",
     "Python",
-    "SQL",
+    "Machine Learning",
+    "Stock Market Prediction",
+    "LeadFlow CRM",
+    "Royal Spice",
     "GitHub",
+    "Vercel",
   ],
+
   authors: [{ name: "Pusukuri Pranith Rao" }],
+
+  creator: "Pusukuri Pranith Rao",
+
+  metadataBase: new URL("https://your-portfolio.vercel.app"),
+
+  openGraph: {
+    title: "Pusukuri Pranith Rao",
+    description:
+      "Full Stack Developer Portfolio showcasing modern web applications and AI-powered projects.",
+    url: "https://your-portfolio.vercel.app",
+    siteName: "Portfolio",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
