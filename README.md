@@ -1,30 +1,49 @@
-# 🌐 Pusukuri Pranith Rao - Portfolio Website
+# 💼 Pusukuri Pranith Rao - Professional Portfolio
 
-A modern, responsive, and SEO-friendly personal portfolio website built using **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**.
+A modern, responsive, and interactive personal portfolio built using **Next.js**, **React**, and **Tailwind CSS**. This portfolio showcases my technical skills, education, featured projects, and contact information while providing live demonstrations of my work.
 
-This project was developed as part of the **Future Interns - Full Stack Web Development Internship (Task 1)**.
+## 🌐 Live Website
+
+(https://future-fs-01-six-tau.vercel.app/)
+
+## 📌 About
+
+This portfolio represents my journey as a Computer Science Engineering student and Full Stack Web Developer. It highlights my experience in developing real-world web applications, AI-powered solutions, and machine learning projects.
+
+The website is designed with a modern UI, responsive layout, smooth scrolling, project showcases, and an integrated contact form.
 
 ---
 
-## 🚀 Live Demo
+## ✨ Features
 
-> To be added after deployment.
-
----
-
-## 📌 Features
-
-- Modern Landing Page
-- Professional Hero Section
-- About Me
-- Skills Showcase
+- Modern and professional UI/UX
+- Fully responsive across all devices
+- Animated Hero Section
+- About Me section
+- Technical Skills showcase
 - Featured Projects
-- Education Section
-- Contact Form with EmailJS
-- Responsive Design
+- Live Demo & GitHub links
+- Education Timeline
+- Contact Form using EmailJS
+- Resume View & Download
+- Smooth scrolling navigation
+- Scroll Progress Indicator
+- Back-to-Top Button
 - SEO Optimized
-- Smooth Scrolling Navigation
-- Professional UI Design
+- Fast loading performance
+
+---
+
+## 🚀 Featured Projects
+
+### 📈 StockVision
+AI-powered stock market prediction platform built with React, Flask, Python, and Machine Learning.
+
+### 💼 LeadFlow CRM
+A secure multi-business CRM platform for managing client leads, follow-ups, analytics, and customer relationships.
+
+### 🍽️ Royal Spice Restaurant
+A premium restaurant website featuring online reservations, interactive menu, WhatsApp integration, and modern animations.
 
 ---
 
@@ -32,111 +51,86 @@ This project was developed as part of the **Future Interns - Full Stack Web Deve
 
 ### Frontend
 
-- Next.js 16
-- React
+- Next.js
+- React.js
 - TypeScript
 - Tailwind CSS
 
-### Contact Form
+### Backend & Services
 
+- Firebase Authentication
+- Firestore Database
 - EmailJS
 
-### Deployment
-
-- Vercel
-
-### Version Control
+### Tools
 
 - Git
 - GitHub
+- Vercel
+- VS Code
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-future-fs-01
-│
-├── app
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-│
-├── components
-│   ├── Navbar.tsx
-│   ├── Hero.tsx
-│   ├── About.tsx
-│   ├── Skills.tsx
-│   ├── Projects.tsx
-│   ├── Education.tsx
-│   ├── Contact.tsx
-│   └── Footer.tsx
-│
-├── public
-│
-└── README.md
+app/
+components/
+public/
+styles/
+lib/
 ```
 
 ---
 
-## 👨‍💻 About Me
+## ⚙ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/pranithrao24/FUTURE_FS_01.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run locally
+
+```bash
+npm run dev
+```
+
+Build production
+
+```bash
+npm run build
+```
+
+---
+
+## 📬 Contact
 
 **Pusukuri Pranith Rao**
 
-- Full Stack Web Developer
-- Prompt Engineer
-- CSE 3rd Year
-- Vaagdevi College of Engineering
-- Warangal, Telangana
+📧 pusukuripranithrao24@gmail.com
 
----
+📱 +91 7330935912
 
-## 💻 Skills
-
-- HTML
-- CSS
-- JavaScript
-- React
-- Next.js
-- Python
-- SQL
-- Git
-- GitHub
-- Tailwind CSS
-- Prompt Engineering
-
----
-
-## 🚀 Featured Projects
-
-### CodeTech
-
-An AI-powered programming learning platform with learning roadmaps, AI mentor guidance, quizzes, and interactive modules.
-
-### Stock Price Prediction
-
-A machine learning-based web application for predicting stock prices using historical market data.
-
----
-
-## 📧 Contact
-
-Email
-
-**pusukuripranithrao24@gmail.com**
-
-GitHub
-
-https://github.com/pranithrao24
-
-LinkedIn
-
+🔗 LinkedIn
 https://www.linkedin.com/in/pranith-rao-1a4460318
+
+🔗 GitHub
+https://github.com/pranithrao24
 
 ---
 
 ## 📄 License
 
-This project is created for educational purposes as part of the Future Interns Internship Program.
+This project was developed as part of the **Future Interns Full Stack Development Internship** and is intended for educational and portfolio purposes.
 
-© 2026 Pusukuri Pranith Rao
+---
+
+⭐ If you like this project, consider giving it a Star on GitHub.
